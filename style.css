@@ -1,0 +1,23 @@
+@media (min-width: 768px) {
+  .news-input {
+    width: 50%;
+  }
+}
+body::before {
+  display: block;
+  content: "";
+  height: 72.2px;
+  color: black;
+}
+.btn-send {
+  border: none;
+  background-color: black;
+  color: white;
+}
+.btn-enroll {
+  border: none;
+  color: white;
+}
+::-webkit-scrollbar {
+  display: none;
+}
